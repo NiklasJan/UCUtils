@@ -28,6 +28,7 @@ public class CosaNostraSpeechModifier implements SpeechModifier {
             Maps.immutableEntry("Wie geht es dir", "Come stai"),
             Maps.immutableEntry("Guten Abend", "Buona sera"),
             Maps.immutableEntry("Schönen Abend", "Buona serata")
+            Maps.immutableEntry("Mann", "uomo")
     );
     private static final List<Map.Entry<String, String>> REPLACE_RETAIN_CASE = Lists.newArrayList(
             Maps.immutableEntry("ja", "sì"),
